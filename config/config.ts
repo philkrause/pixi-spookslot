@@ -1,0 +1,30 @@
+import { ConfigInterface } from './contract';
+
+export const config: ConfigInterface = {
+  gameWidth: 950,
+  gameHeight: 600,
+  minWidth: 144,
+  minHeight:1152,
+  reelContainerPosition: { x: 175, y: 100},
+  reelPositionTwo: { x: 175, y: 200 },
+  reelPositionThree: { x: 175, y: 20 },
+  playButtonPosition: { x: 600, y: 426 },
+  selectEasyModePosition: { x: 640, y: 470 },
+  FPSDisplayPosition: { x: 500, y: 20 },
+  totalReels: 1,
+  reelSpinningCycles: 2,
+  reelSpinningSpeedFactor: 25,
+  reelShuffleSpinningSpeedFactor: false,
+  totalReelCells: 5,
+  reelVisibleCells: 5,
+  reelCellHeight: 144,
+  reelCellWidth: 144,
+  reelVerticalPadding: 0,
+  reelHorizontalMargin: 0 ,
+  backgroundHeight: 800,
+  backgroundWidth: 600,
+  backgroundHorizontalMargin: 0,
+  backgroundVerticalPadding: 0,
+  backgroundPosition: {x: 10, y: 40},
+  reelOneOutcome: [10, 10, 10, 4, 4]
+};
